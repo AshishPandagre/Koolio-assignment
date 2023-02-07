@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div id="building">
+      <div class="floor" id="floor_two">
+        <p>Level 2</p>
+      </div>
+      <div class="floor" id="floor_one">
+        <p>Level 1</p>
+      </div>
+      <div class="floor" id="floor_zero">
+        <p>Level 0</p>
+      </div>
+      <div id="elevator"></div>
+    </div>
+
+    <audio id="sound">
+      <source src="assets/audios/elevator.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="control">
+      <div class="floor_control">
+        <img src="./assets/images/arrow.svg" class="down" id="two_down">
+      </div>
+      <div class="floor_control">
+        <img src="./assets/images/arrow.svg" class="up" id="one_up">
+        <img src="./assets/images/arrow.svg" class="down" id="one_down">
+      </div>
+      <div class="floor_control">
+        <img src="./assets/images/arrow.svg" class="up" id="zero_up">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
