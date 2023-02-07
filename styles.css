@@ -68,7 +68,3 @@
   background-size: 200%;
   transition: background-position .5s ease-out, transform 5s linear;
 }
-
-#elevator:hover {
-  background-position: left;
-}
